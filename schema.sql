@@ -33,7 +33,7 @@ CREATE TABLE salaries (
 );
 Create Table dept_emp (
 	emp_no INT NOT NULL,
-	dept_no INT NOT	NULL,
+	dept_no VARCHAR NOT	NULL,
 	from_date DATE NOT NULL,
 	to_date DATE NOT NULL,
 	PRIMARY KEY (emp_no, dept_no)
